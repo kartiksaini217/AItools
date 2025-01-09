@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cb997e; /* Light background color */
+    color: #333; /* Dark text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b7b7a4(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+}
+
+h1 {
+    color: #7f5539; /* Attractive header color */
+}
+
+.chatbox {
+    margin-top: 20px;
+}
+
+.chatlog {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fafafa; /* Light gray background for chat log */
+}
+
+.chatlog p {
+    margin: 5px 0;
+}
+
+#userInput {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    background-color: #8a817c; /* Attractive button color */
+    color: rgb(244, 243, 243);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background-color: #a08aa1; /* Darker button color on hover */
+}
